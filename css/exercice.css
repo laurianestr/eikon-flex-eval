@@ -79,8 +79,8 @@
   flex-flow: row wrap ;
   align-content: center;
   align-items: baseline;
-
 }
+
 .exercice-8 .element-pink {
   order: 1; 
 }
@@ -89,10 +89,12 @@
   flex-grow: 1; 
 }
 
-
-
-
 /* 9. exercice-9 */
-
+.exercice-9 .container {
+  display: flex;
+  flex-flow: row-reverse wrap-reverse ;
+  align-items: baseline;
+  justify-content: center;
+}
 /* 10. exercice-10 */
 
