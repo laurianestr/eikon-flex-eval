@@ -58,11 +58,16 @@
   flex-direction: row;
   flex-wrap: wrap-reverse;
   justify-content: flex-start;
+  align-content: space-between;
 }
 
 .exercice-6 .element-pink {
  flex-grow: 1;
 }
+
+.exercice-6 .element {
+  flex-grow: 1;
+ }
 
 
 /* 7. exercice-7 */
@@ -104,4 +109,6 @@
   align-items: center;
 }
 
-.
+.exercice-10 .block {
+  margin: auto;
+}
