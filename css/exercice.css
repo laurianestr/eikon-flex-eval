@@ -68,8 +68,6 @@
 .exercice-6 .element {
   flex-grow: 1;
  }
-
-
 /* 7. exercice-7 */
 .exercice-7 .container {
   display: flex;
@@ -85,21 +83,21 @@
   align-content: center;
   align-items: baseline;
 }
-
 .exercice-8 .element-pink {
-  order: 1; 
-}
-
-.exercice-8 .element {
-  flex-grow: 1; 
+  order: 1;
 }
 
 /* 9. exercice-9 */
 .exercice-9 .container {
   display: flex;
-  flex-flow: row-reverse wrap-reverse ;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: baseline;
-  justify-content: center;
+}
+
+.exercice-9 .element {
+  width: 50%;
+  box-sizing: border-box;
 }
 
 /* 10. exercice-10 */
