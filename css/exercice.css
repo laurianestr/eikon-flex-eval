@@ -63,8 +63,15 @@
 .exercice-6 .element-pink {
  flex-grow: 1;
 }
-/* 7. exercice-7 */
 
+
+/* 7. exercice-7 */
+.exercice-7 .container {
+  display: flex;
+  flex-flow: column-reverse wrap-reverse ;
+  align-content: center;
+  justify-content: space-between;
+}
 /* 8. exercice-8 */
 
 /* 9. exercice-9 */
