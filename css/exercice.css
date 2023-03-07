@@ -72,7 +72,25 @@
   align-content: center;
   justify-content: space-between;
 }
+
 /* 8. exercice-8 */
+.exercice-8 .container {
+  display: flex;
+  flex-flow: row wrap ;
+  align-content: center;
+  align-items: baseline;
+
+}
+.exercice-8 .element-pink {
+  order: 1; 
+}
+
+.exercice-8 .element {
+  flex-grow: 1; 
+}
+
+
+
 
 /* 9. exercice-9 */
 
